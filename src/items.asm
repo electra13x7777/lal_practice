@@ -8,19 +8,29 @@
 ; Bakumatsu Chapter
 
 ; NINJA START
-STARTITEMS  lda #$03    ;
+STARTITEMS  lda #$67    ; load item in bag
+            sta $177A   ; store item in bag
+            lda #$82    ; load item in bag
+            sta $177B   ; store item in bag
+            lda #$03    ;
             sta $187A   ; 3 てんむす
             lda #$01    ;
             sta $187B   ; 1 かくれみの
 
     ;db $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $00, $03, $01, $00, $00, $00, $00, $00, $00, $00,   
 ; JAIL
-JAILITEMS   lda #$03    ;
+JAILITEMS   lda #$67    ; load item in bag
+            sta $177A   ; store item in bag
+            lda #$82    ; load item in bag
+            sta $177B   ; store item in bag   lda #$03    ;
             sta $187A   ; 3 てんむす
             lda #$01    ;
             sta $187B   ; 1 かくれみの
 ; B3 A1
-B3A1ITEMS   lda #$03    ;
+B3A1ITEMS   lda #$67    ; load item in bag
+            sta $177A   ; store item in bag
+            lda #$82    ; load item in bag
+            sta $177B   ; store item in bag   lda #$03    ;
             sta $187A   ; 3 てんむす
             lda #$01    ; 1 かくれみの, 1 忍びのトリモチ, 1 カネサダ
             sta $187B, $1888, $1892
