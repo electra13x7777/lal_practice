@@ -2,7 +2,7 @@ DESC,ADDRESS,STATE OFFSET,INFO
 Map Ypos,7E0A29,0x163C,
 Map Xpos,7E0A41,0x1654,
 Timer Loop,7E0AE0,0x16F3,counts down from 255 to 0 in a loop
-Num Loops,7E0AE1, 0x16F4 ,init at 14, everytime addr above finishes a loop -=1, at 0 calls bell subroutine then resets to 14
+Num Loops,7E0AE1, 0x16F4 ,init at 14 everytime addr above finishes a loop -=1 at 0 calls bell subroutine then resets to 14
 Level,7E0EC6,0x1AD9,
 Current HP,7E0EC8,0x1ADB,
 Max HP,7E0ECA,0x1ADD,
